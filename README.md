@@ -1,16 +1,3 @@
-# countries_list
+This application provides comprehensive details on European countries, with advanced sorting options by name, capital, and population. The app is designed using Clean Architecture to ensure the UI components are independent of the data models. Dependency Injection is utilized to manage object creation, enhancing modularity and testability.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For data retrieval, I employed Dio and Retrofit to efficiently fetch information from APIs. State management is handled using the Provider package, and dependency injection is facilitated through Get It. Additionally, I implemented Device Preview to ensure responsiveness across various mobile devices, and I have commented out code lines related to that to highlight this functionality.

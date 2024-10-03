@@ -68,7 +68,7 @@ void main() {
     //...............Assert.................//
     // Verify that the countries list in the provider is correctly populated
     expect(countryProvider.countries.length, 2);
-    expect(countryProvider.countries[0].nameDetails.common, 'Germany');
+    expect(countryProvider.countries[0].nameDetails.common, 'UK');
     expect(countryProvider.countries[1].nameDetails.common, 'France');
   });
 
